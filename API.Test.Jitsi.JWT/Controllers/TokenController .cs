@@ -81,7 +81,7 @@ namespace API.Test.Jitsi.JWT.Controllers
             return Ok(tokenIds);
         }
 
-        // GET api/token/{id}
+        /*// GET api/token/{id}
         [HttpGet("{id}")]
         public IActionResult GetTokenById(Guid id)
         {
@@ -92,6 +92,36 @@ namespace API.Test.Jitsi.JWT.Controllers
             }
 
             return Ok(tokenValue.Value);
+        }*/
+
+        // GET api/token/{id}
+        [HttpGet("{id}")]
+        public IActionResult GetTokenById(Guid id)
+        {
+            var tokenValue = _context.TokenValues.Find(id);
+            if (tokenValue == null)
+            {
+                return NotFound();
+            }
+
+            // Возвращаем JSON с полем "token", содержащим значение токена
+            return new JsonResult(new { token = tokenValue.Value });
+        }
+
+        // DELETE api/token/{id}
+        [HttpDelete("{id}")]
+        public IActionResult DeleteTokenById(Guid id)
+        {
+            var tokenValue = _context.TokenValues.Find(id);
+            if (tokenValue == null)
+            {
+                return NotFound();
+            }
+
+            _context.TokenValues.Remove(tokenValue);
+            _context.SaveChanges();
+
+            return Ok("Token deleted successfully.");
         }
 
 

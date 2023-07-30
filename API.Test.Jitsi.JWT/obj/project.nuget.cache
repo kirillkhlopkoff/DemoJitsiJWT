@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p5O23Am9OR99c2WmUIYAhftEchlFsFMyMa8P6VAGvYOvV36sYVbJ8B5tTo1e4DZVEDK5N0J6udEkdGnV9RE9GA==",
+  "dgSpecHash": "/mDdnPZ4Iw0Fjsc3KUpqihXUGmg+GZ6DTraRw7r/nfN3U0+RkDyt7X41VhFbu0Yd6+KqvVwppAluZNzfRwHF/w==",
   "success": true,
   "projectFilePath": "D:\\work\\web\\jitsi\\API.Test.Jitsi.JWT\\API.Test.Jitsi.JWT\\API.Test.Jitsi.JWT.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,8 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
