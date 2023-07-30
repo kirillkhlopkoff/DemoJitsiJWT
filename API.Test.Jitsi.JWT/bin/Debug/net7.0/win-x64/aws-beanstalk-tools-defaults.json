@@ -1,0 +1,20 @@
+
+{
+    "region" : "eu-central-1",
+    "configuration" : "Debug",
+    "framework"     : "net7.0",
+    "self-contained" : true,
+    "application"    : "APITestJitsiJWT",
+    "environment"    : "APITestJitsiJWT-test",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-08663daa4e5169053,sg-06a5197d8b2d9db51\";\"aws:ec2:vpc,Subnets\"=\"subnet-037d0b29e6c38432b\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.5.5 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "apitestjitsijwt-test",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "kirillkey",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}

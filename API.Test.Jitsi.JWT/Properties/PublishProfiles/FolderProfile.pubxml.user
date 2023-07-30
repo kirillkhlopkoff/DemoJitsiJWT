@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot</_PublishTargetUrl>
+    <History>True|2023-07-28T05:08:27.9766108Z;True|2023-07-28T07:52:41.0966834+03:00;True|2023-07-27T23:12:57.6943415+03:00;True|2023-07-27T22:44:16.4680179+03:00;True|2023-07-27T18:01:50.7961516+03:00;True|2023-07-27T17:58:14.1088862+03:00;False|2023-07-27T17:57:08.1686813+03:00;True|2023-07-27T17:36:34.7483453+03:00;False|2023-07-27T17:36:05.6650078+03:00;True|2023-07-27T17:24:17.9045140+03:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tokendb.c4nfautgqyqx.eu-central-1.rds.amazonaws.com%3bPort=3306%3bDatabase=tokendb%3bUser=admin%3bPassword=Parol_1984_MySqlPass%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="API.Test.Jitsi.JWT.Data.ApplicationDbContext">
+      <Value>Server=localhost%3bPort=3306%3bDatabase=jitsiTestJWT%3bUid=kirill%3bPwd=Parol_1984_MySqlPass%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

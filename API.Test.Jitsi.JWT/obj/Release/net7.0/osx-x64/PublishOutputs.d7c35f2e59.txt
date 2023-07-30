@@ -1,0 +1,4 @@
+D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\obj\Release\net7.0\osx-x64\PubTmp\Out\appsettings.Development.json
+D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\obj\Release\net7.0\osx-x64\PubTmp\Out\appsettings.json
+D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\obj\Release\net7.0\osx-x64\PubTmp\Out\API.Test.Jitsi.JWT.pdb
+D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\obj\Release\net7.0\osx-x64\PubTmp\Out\API.Test.Jitsi.JWT

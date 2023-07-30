@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\server</_PublishTargetUrl>
+    <History>True|2023-07-30T07:28:37.3948865Z;True|2023-07-29T19:36:10.9781500+03:00;True|2023-07-29T19:35:03.5183456+03:00;True|2023-07-29T19:34:47.1127187+03:00;True|2023-07-29T19:33:59.7890262+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tokendb.c4nfautgqyqx.eu-central-1.rds.amazonaws.com%3bPort=3306%3bDatabase=tokendb%3bUser=admin%3bPassword=Parol_1984_MySqlPass%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

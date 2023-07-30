@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FB7OKuRN5TNPNc8/UNouu6BjmxYbevDsVAMVF9XrR50=",
+  "Source": "API.Test.Jitsi.JWT",
+  "BasePath": "_content/API.Test.Jitsi.JWT",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
