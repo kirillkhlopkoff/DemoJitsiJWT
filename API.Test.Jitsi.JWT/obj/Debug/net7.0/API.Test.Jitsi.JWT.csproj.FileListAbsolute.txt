@@ -52,3 +52,5 @@ D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\bin\Debug\net7.0\Mono.Te
 D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\bin\Debug\net7.0\MySqlConnector.dll
 D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\bin\Debug\net7.0\System.CodeDom.dll
+D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\bin\Debug\net7.0\Npgsql.dll
+D:\work\web\jitsi\API.Test.Jitsi.JWT\API.Test.Jitsi.JWT\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
