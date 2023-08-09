@@ -17,7 +17,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.LogTo(Console.WriteLine);
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+    options.UseNpgsql(connectionString);
 });
 
 builder.Services.AddIdentity<UserModel, IdentityRole>(options =>
